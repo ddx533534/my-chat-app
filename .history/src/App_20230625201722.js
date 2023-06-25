@@ -1,10 +1,10 @@
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const { Search } = Input;
   return (
     <div className="App">
-      <Search searchText placeholder="input search text" />
+      <input>请输入问题</input>
     </div>
   );
 }
